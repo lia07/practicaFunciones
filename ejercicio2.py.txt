@@ -10,4 +10,4 @@ try:
         valor //= 10
     print('El inverso del número ingresado es: ', revertir)
 except ValueError:
-    print("Numero no valido. Ingresar de nuevo!")
+    print("Numero no valido. Ingresar de nuevo:!")
