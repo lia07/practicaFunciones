@@ -1,7 +1,7 @@
 #Calcule el promedio de un curso (Ejm entrada [70,80,90,100], salida=85).
 lista = [70,80,90,100]
-tamañoLista = len(lista)
+tamaÅ„oLista = len(lista)
 lista2 = 0
-for i in range(tamañoLista):
+for i in range(tamaÅ„oLista):
 	lista2 = lista2+lista[i]
-lista2 = lista2/tamañoLista 
+lista2 = lista2/tamaÅ„oLista 
