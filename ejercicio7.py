@@ -1,3 +1,4 @@
+# ok, no cumple con la salida
 #Se le solicita crear un filtro para buscar palabras en una lista de cadenas.
 #Entrada
 #lista = ["vengadores infinity war 2","VENGADORES: ENDGAME","X-MEN: FÉNIX OSCURA","ALADDIN","ALADDIN Y LA #LAMPARA","vengadores infinity war"]
