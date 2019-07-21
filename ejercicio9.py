@@ -1,3 +1,4 @@
+# ok
 #Se tienen tres diccionarios, se solicita ordenarlos de forma ascendente o descendentes usando el valor de los diccionarios:
 #Entrada:
 #Número a={‘Jose’:18}
@@ -19,7 +20,6 @@ w = sorted(a, key=lambda x:a[x],reverse=False)
 print(w)
 
 for i in w:
-
    print("%s:%i "%(i,a[i]))
 
 
