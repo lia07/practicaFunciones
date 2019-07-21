@@ -1,12 +1,12 @@
 #Se le solicita crear un filtro para buscar palabras en una lista de cadenas.
 #Entrada
-#lista = ["vengadores infinity war 2","VENGADORES: ENDGAME","X-MEN: FÉNIX OSCURA","ALADDIN","ALADDIN Y LA #LAMPARA","vengadores infinity war"]
+#lista = ["vengadores infinity war 2","VENGADORES: ENDGAME","X-MEN: FÃ‰NIX OSCURA","ALADDIN","ALADDIN Y LA #LAMPARA","vengadores infinity war"]
 #palabra= aladd
 #Salida   res=["ALADDIN","ALADDIN Y LA LAMPARA"]
 
 numeroPal = int(input("Buscar palabras en una lista de cadenas:"))
 if numeroPal < 1:
-    print("¡NUL!")
+    print("Â¡NUL!")
 else:
     lista = []
     for i in range(numeroPal):
