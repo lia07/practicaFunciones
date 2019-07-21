@@ -1,4 +1,4 @@
-#Escriba un programa que pida al usuario dos palabras, y que indique cu·l de ellas es la m·s larga y por #cu·ntas letras lo es.
+#Escriba un programa que pida al usuario dos palabras, y que indique cu√°l de ellas es la m√°s larga y por #cu√°ntas letras lo es.
 #Palabra 1: edificio
 #Palabra 2: tren
 #La palabra edificio tiene 4 letras mas que tren.
