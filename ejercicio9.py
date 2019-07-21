@@ -1,12 +1,12 @@
 #Se tienen tres diccionarios, se solicita ordenarlos de forma ascendente o descendentes usando el valor de los diccionarios:
 #Entrada:
-#Número a={‘Jose’:18}
-#Numero b={‘Maria’:15}
-#Número c={‘Pedro’: 24}
+#NÃºmero a={â€˜Joseâ€™:18}
+#Numero b={â€˜Mariaâ€™:15}
+#NÃºmero c={â€˜Pedroâ€™: 24}
 #ascendente=True
 #Salida:
-#(a={‘Maria’:15}, b= {‘Jose’:18}, c={‘Pedro’: 24})    #ascendente=True
-#(a={‘Pedro’: 24}, b= {‘Jose’:18}, c={‘Maria’:15})    #ascendente=False
+#(a={â€˜Mariaâ€™:15}, b= {â€˜Joseâ€™:18}, c={â€˜Pedroâ€™: 24})    #ascendente=True
+#(a={â€˜Pedroâ€™: 24}, b= {â€˜Joseâ€™:18}, c={â€˜Mariaâ€™:15})    #ascendente=False
 
 a={'Jose':18}
 b={'Maria':15}
