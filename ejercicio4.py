@@ -1,3 +1,4 @@
+# ok
 #Escriba un programa que pida al usuario dos palabras, y que indique cuál de ellas es la más larga y por #cuántas letras lo es.
 #Palabra 1: edificio
 #Palabra 2: tren
