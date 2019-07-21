@@ -1,3 +1,4 @@
+# ok
 #Escriba una función que dibuje el hexágono del tamaño indicado por el usuario de acuerdo al ejemplo:
 #Lado: 4
 
