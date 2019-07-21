@@ -1,3 +1,4 @@
+# ok
 #Encuentre el número mayor en una lista(Ejm entrada=[5,1,33,4,4,33,12], salida=33).
 
 lista = [5,1,33,4,4,33,12]
