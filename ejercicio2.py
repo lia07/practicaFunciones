@@ -1,3 +1,4 @@
+# ok
 #Invertir un número ( Ejm: entrada = 123, salida=321).
 
 numero_ingresado = (input("Ingrese un número: "))
