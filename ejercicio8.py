@@ -1,4 +1,4 @@
-#Escriba una funciÛn que dibuje el hex·gono del tamaÒo indicado por el usuario de acuerdo al ejemplo:
+#Escriba una funci√≥n que dibuje el hex√°gono del tama√±o indicado por el usuario de acuerdo al ejemplo:
 #Lado: 4
 
 n= int(input('num'))
