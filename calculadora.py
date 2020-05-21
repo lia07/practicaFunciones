@@ -59,10 +59,25 @@ class Interfaz:
                 elif texto==u"\u232B":
                     self.operacion=""
                     self.limpiarPantalla()
+            #Mostrar texto
             else:
                 self.operacion+=str(texto)
                 self.limpiarPantalla(texto)
             return
+        #Borrar el contenido de la pantalla de la calculadora
+        def limpiarPantall(self):
+            self.pantalla.configure(state="normal")
+            self.pantalla.delete("1.0", END)
+            self.pantalla.configure(state="disabled")
+            return
+
+        #Muestra en la pantalla de la calculadora el contenido de las operaciones y los resultados
+        def mostrarEnPantalla(self, valor):
+            self.pantall.configure(state="normal")
+            self.pantalla.insert(END, valor)
+            self.pantalla.configue(state="disabled")
+            return
+
 
 ventana_principal=Tk()
 calculadora=Interfaz(ventana_principal)
