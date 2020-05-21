@@ -1,5 +1,5 @@
-from tkinter import Tk, Text, Button
-class interfacaz:
+from tkinter import Tk, Text, Button, END, re
+class Interfaz:
     def __init__(self, ventana):
         #Inicializar la ventana con un titulo
         self.ventana=ventana
@@ -31,6 +31,7 @@ class interfacaz:
         boton15=self.crearBoton("+")
         boton16=self.crearBoton("-")
         boton17=self.crearBoton("=", escribir=False, ancho=20, alto=2)
+
         #Ubicar los botones con el gestor grid
         botones=[boton1.boton2, boton3, boton4, boton5, boton6, boton7, boto8, boton9, boton10, boton11, boton12, boton13, boton14, boton15,boton16, boton17]
         contador=0
@@ -41,9 +42,31 @@ class interfacaz:
         #Ubicar el ultimo boton al final
         botones[16].grid(row=5, column=0, columnspan=4)
         return
+
     # Crear un boton mostrando nel valor pasado por parametro
         def crearBoton(self, valor, escribir=True, ancho=9, alto=1):
-            return Botton(self.ventana, text=valor, width=ancho, height=alto, font=("Helvitica", 15), command=lambda:self.click(valor,escribir))
+            return Button(self.ventana, text=valor, width=ancho, height=alto, font=("Helvitica", 15), command=lambda:self.click(valor,escribir))
+        #controla el evento disparado al hacer click en un boton
+        def click(self, texto, escribir):
+            #si el parametro 'escribir' rs True, entonces el parametro texto debe mostrarse en pantalla. Si es false, no.
+            if not escribir:
+                if texto=="=" and self.operacion!="":
+                    self.operacion=re.sub(u"\u00F7", "/", self.operacion)
+                    resultado=str(eval(self.operacion))
+                    self.operacion=""
+                    self.limpiarPantalla()
+                    self.mostrarEnPantalla(resultado)
+                elif texto==u"\u232B":
+                    self.operacion=""
+                    self.limpiarPantalla()
+            else:
+                self.operacion+=str(texto)
+                self.limpiarPantalla(texto)
+            return
+
+ventana_principal=Tk()
+calculadora=Interfaz(ventana_principal)
+ventana_principal.mainloop()
 
 
 
