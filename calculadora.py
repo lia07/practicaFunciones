@@ -5,7 +5,7 @@ class Interfaz:
         self.ventana=ventana
         self.ventana.title("Calculadora")
         #Agregar una caja de texto para que sea la apantalla de la calculadora
-        self.pantalla=Text(ventana, state="disable", width=40, height=3, background="orchid", foreground="while", font=("Helvetica"))
+        self.pantalla=Text(ventana, state="disabled", width=40, height=3, background="orchid", foreground="while", font=("Helvetica"))
 
         #Ubicar la apantalla en la ventaboton3=self.crearBoton(9)na
         self.pantalla.grid(row=0, column=0,columnsoan=4, padx=5, pady=5)
